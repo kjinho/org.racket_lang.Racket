@@ -1,6 +1,6 @@
 app-id: org.racket_lang.Racket
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: drracket
 rename-desktop-file: drracket.desktop
@@ -22,8 +22,8 @@ modules:
       - --enable-places
     sources:
       - type: archive
-        url : https://download.racket-lang.org/releases/8.12/installers/racket-8.12-src.tgz
-        sha256: a2bdba9e2ae6e5d1a18364bcb68f7d04538e492d8e92c9fb61bd32d8be5bebd7
+        url : https://download.racket-lang.org/releases/8.14/installers/racket-8.14-src.tgz
+        sha256: aab8cc0db336ed2d382803c708ad55a95fc52a4436c912f616f7c49d4845ae2c
       - type: file
         path: org.racket_lang.Racket.appdata.xml
       - type: file
